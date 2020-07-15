@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Checkout Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Form_s7.css"/>
+    <link rel="stylesheet" href="../lbs/font%20awesome/css/all.css">
+
+
+</head>
+<body>
+    <h2>Responsive Checkout Form</h2>
+    <div id="tong">
+        <div id="trai">
+            <h3>Billing Address</h3>
+            <form>
+                <label for="fname">Full name</label>
+                <input type="text" class="input-text" id="fname" name="fname">
+                <label for="email">Email</label>
+                <input type="text" class="input-text" id="email" name="@gmail.com">
+                <label for="address">Address</label>
+                <input type="text" class="input-text" id="address" name="Address">
+                <label for="city">City</label>
+                <input type="text" class="input-text" id="city" name="City">
+                <div class="State">
+                <label for="state">State</label>
+                <input type="text" class="input-text" id="state" name="State">
+                </div>
+                <div class="Zip">
+                <label for="Zip"> Zip</label>
+                <input type="number" class="input-text" id="Zip" name="Zip">
+                </div>
+                <label><input type="checkbox" name="rules"/>shipping address same as billing.</label>
+            </form>
+        </div>
+        <div id="phai">
+            <h3>Payment</h3>
+            <h4>Accepted cards</h4>
+            <div id="card" style="color: black">
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-apple-pay"></i>
+            </div>
+            <form>
+                <label for="name on card">Name on card</label>
+                <input type="text" class="input-text" id="name on card" name="Name on card">
+                <label for="credit card number">Credit card number</label>
+                <input type="number" class="input-text" id="credit card number" name="Credit card number">
+                <label for="exp month">Exp month</label>
+                <input type="month" class="input-text" id="exp month" name="Exp month">
+                <div class="Exp year">
+                <label for="exp year">Exp year</label>
+                <input type="number" class="input-text" pattern=[0-9]{4} id="exp year" name="Exp year">
+                </div>
+                <div class="CVV">
+                <label for="cvv">CVV</label>
+                <input type="number" class="input-text" id="cvv" name="CVV">
+                </div>
+            </form>
+        </div>
+        <button type="submit" class="input-text">Continue to checkout</button>
+    </div>
+</body>
+</html>

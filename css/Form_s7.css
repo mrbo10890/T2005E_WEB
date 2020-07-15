@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Noto Sans Armenian";
+    font-size: 20px;
+    width: 100%;
+}
+#tong {
+    width: 100%;
+    background-color: #bac3cc;
+    height: 800px;
+
+}
+#trai{
+    width: 50%;
+    /*background-color: #bac3cc;*/
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+#phai{
+    width: 50%;
+    /*background-color: #bac3cc;*/
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: -8px;
+}
+.input-text{
+    width: 100%;
+    height: 30px;
+}
+input {
+    margin-bottom: 10px;
+}
+.Zip{
+    float: left;
+    width: 45%;
+}
+.State{
+    float: left;
+    width: 45%;
+    margin-right: 80px;
+}
+.Exp{
+    float: left;
+    width: 45%;
+    margin-right: 80px;
+}
+.CVV{
+    float: left;
+    width: 45%;
+}
+button{
+    background-color: #4CAF50;
+}
